@@ -120,6 +120,9 @@ public class FeltTest {
 
 		dices = new Dices(6, 8, 8, 6, 8, 7);
 		testFelt(dices, true, "20", "-16.67", "21", "-118.67");
+
+		dices = new Dices(6, 8, 8, 6, 7, 6, 7);
+		testFelt(dices, true, "21", "-17.67", "120", "66.66");
 	}
 
 	private void testFelt(Dices dices, String expectedPass, String expectedDontPass) {

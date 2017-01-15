@@ -12,7 +12,7 @@ public class Felt {
 	private static final BigDecimal THREE = new BigDecimal(3);
 	private static final BigDecimal TWO = new BigDecimal(2);
 	private static final int BET = 1;
-	private static final int ODDS = 100;
+	private static final int ODDS = 1000;
 	private static final int TRIALS = 1000000;
 	private static final NumberFormat CURRENCY = NumberFormat.getCurrencyInstance();
 
